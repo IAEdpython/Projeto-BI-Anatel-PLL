@@ -17,15 +17,20 @@ A solução foi estruturada em camadas para garantir escalabilidade e integridad
 Para visualizar e testar o projeto localmente, siga os passos abaixo:
 
 1. **Banco de Dados (MySQL):**
+   *   ****Importante:** É necessário ter o driver **MySQL 8.0.46** instalado na máquina
+   *   **Segue o link para download:  https://dev.mysql.com/downloads/installer/
    *   Crie um novo schema (Database) no seu servidor MySQL.
    *   Importe e execute o arquivo `Banco_de_Dados_Projeto_PLL.sql` disponível neste repositório. Este arquivo contém toda a estrutura de tabelas e a carga de dados necessária.
 
-2. **Dashboard (Power BI):**
+3. **Dashboard (Power BI):**
    *   Certifique-se de ter o Power BI Desktop instalado.
+   *   **Importante:** É necessário ter o driver **MySQL Connector/NET** instalado na máquina para que o Power BI consiga se comunicar com o banco de dados.
+   *   **Segue o link: https://dev.mysql.com/downloads/connector/net/
+   *   
    *   Abra o arquivo `Dashboard de Desempenho de Acessos.pbix`.
    *   Caso os dados não carreguem automaticamente, vá em *Transformar Dados* > *Configurações da Fonte de Dados* e aponte para o seu servidor MySQL local.
 
-3. **Documentação Técnica:**
+4. **Documentação Técnica:**
    *   Para detalhes sobre as métricas (DAX) e regras de negócio, consulte o arquivo `Projeto_BI_EdivaldoSantos.pdf`.
 
 ## 👤 Sobre o Autor
